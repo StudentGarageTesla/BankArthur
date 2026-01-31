@@ -1,0 +1,8 @@
+FROM postgres:latest
+
+ENV POSTGRES_DB=bankarthur \
+    POSTGRES_USER=postgres \
+    POSTGRES_PASSWORD=postgres
+
+# Expose default PostgreSQL port
+EXPOSE 5432
